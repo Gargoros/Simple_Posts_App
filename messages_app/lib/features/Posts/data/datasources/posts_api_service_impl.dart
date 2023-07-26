@@ -5,9 +5,9 @@ import 'package:messages_app/core/constants/constants.dart';
 import 'package:messages_app/features/Posts/data/datasources/posts_api_service.dart';
 import 'package:messages_app/features/Posts/data/models/post_model.dart';
 
-class MessagesApiServiceImpl implements PostsApiService {
+class PostsApiServiceImpl implements PostsApiService {
   final http.Client client;
-  MessagesApiServiceImpl({required this.client});
+  PostsApiServiceImpl({required this.client});
   @override
   Future<List<PostModel>> getPosts() async {
     final response = await client.get(Uri.parse(baseUrl));
