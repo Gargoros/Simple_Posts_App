@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:messages_app/core/constants/constants.dart';
 
 import 'config/themes/theme_data.dart';
 
@@ -8,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: messegesTitleName,
       theme: AppTheme.light(),
     );
   }
