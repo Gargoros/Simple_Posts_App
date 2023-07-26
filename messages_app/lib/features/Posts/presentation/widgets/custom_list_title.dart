@@ -66,7 +66,7 @@ class CustomListTile extends StatelessWidget {
                             ),
                             Text(
                               post.body!.replaceAll("\n", " "),
-                              style: Theme.of(context).textTheme.bodySmall,
+                              style: Theme.of(context).textTheme.bodyMedium,
                               textAlign: TextAlign.right,
                             ),
                           ],
