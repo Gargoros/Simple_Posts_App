@@ -9,3 +9,5 @@ const String postBody = "Body";
 
 const String ok = "Ok";
 const String refresh = "Refresh";
+
+const String apiError = "Unable to retrieve posts.";
