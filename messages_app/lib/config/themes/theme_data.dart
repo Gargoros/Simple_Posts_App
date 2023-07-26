@@ -6,12 +6,6 @@ class AppTheme {
   static TextTheme lightTextTheme = TextTheme(
     bodyMedium: GoogleFonts.poppins(
       fontSize: 14.0,
-      fontWeight: FontWeight.w400,
-      color: const Color(0xff6f7885),
-    ),
-    bodySmall: GoogleFonts.poppins(
-      height: 1.2,
-      fontSize: 12.0,
       fontWeight: FontWeight.w500,
       color: const Color(0xFF001D37),
     ),
@@ -32,7 +26,6 @@ class AppTheme {
       useMaterial3: true,
       scaffoldBackgroundColor: const Color(0xffefeeee),
       appBarTheme: const AppBarTheme(
-        foregroundColor: Color(0xFF0d1821),
         backgroundColor: Color(0x0081CCFF),
       ),
       textTheme: lightTextTheme,
