@@ -1,8 +1,10 @@
 part of 'posts_bloc.dart';
 
-abstract class PostsEvent extends Equatable {
+@immutable
+abstract class PostsEvent {
   const PostsEvent();
+}
 
-  @override
-  List<Object> get props => [];
+class GetPosts extends PostsEvent {
+  const GetPosts();
 }
